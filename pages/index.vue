@@ -28,16 +28,9 @@ async function handleJoinRoom() {
   <div class="h-dvh flex flex-col items-center justify-center bg-gray-50 bg-pattern p-4">
     <div class="flex flex-col items-center justify-center p-4 sm:p-10 shadow-lg bg-gray-700/20 rounded-lg backdrop-blur-sm backdrop-filter">
       <h1 class="font-black text-4xl sm:text-5xl mb-4 drop-shadow-lg text-white text-center">
-        WebRTC Playground
+        WebRTC
       </h1>
-      <h2 class="font-bold text-xl sm:text-2xl text-white mb-6 drop-shadow-lg">
-        創建房間並立即開始視訊通話
-      </h2>
-      <ol class="p-4 bg-gray-700/20 rounded-lg text-white mb-6">
-        <li>1. 房間為一次性，創建者離開後，房間就會消失</li>
-        <li>2. 創建後分享網址給另一方，即可加入你的房間</li>
-        <li>3. 每間房最多容納兩人，參與者退出後可以重新加入（只要房間沒有消失）</li>
-      </ol>
+
       <div class="flex flex-col gap-4 w-60 sm:w-80">
         <button
           class="flex items-center justify-center gap-2 px-4 py-2 bg-orange-300 rounded-lg font-bold text-white transition hover:(bg-orange-400) disabled:(cursor-not-allowed bg-gray-400)"
